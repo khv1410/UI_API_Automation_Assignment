@@ -1,0 +1,85 @@
+Scenario1:
+
+1. Launch the blazedemo application. 
+2. Verify application homepage.
+3. Verify and select the values from departure and destination city dropdown.
+4. Verify and click on find flights button.
+5. User should navigate to reserve page.
+6. Verify the list of flights should be displayed.
+
+Scenario2:
+
+1. Launch the blazedemo application. 
+2. Verify application homepage.
+3. Verify and select the values from departure and destination city dropdown.
+4. Verify and click on find flights button.
+5. User should navigate to reserve page.
+6. Verify the "choose this flight" button for the desired flight.
+7. Click on "choose this flight" button.
+8. User should navigate to purchase page.
+9. Verify Airline, Flight number and total cost fields as per you desired selection.
+
+
+Scenario3:
+
+1. Launch the blazedemo application. 
+2. Verify application homepage.
+3. Verify and select the values from departure and destination city dropdown.
+4. Verify and click on find flights button.
+5. User should navigate to reserve page.
+6. Verify the "choose this flight" button for the desired flight.
+7. Click on "choose this flight" button.
+8. User should navigate to purchase page.
+9. Verify Name, address, City, State, Zip Code, Card type, Credit card Number, Month, Year, Name on Card, Remember me label and checkbox fields and Purchase flight button on purchase page.
+10 Verify all the values of card type dropdown.
+
+
+Scenario4:
+
+1. Launch the blazedemo application. 
+2. Verify application homepage.
+3. Verify and select the values from departure and destination city dropdown.
+4. Verify and click on find flights button.
+5. User should navigate to reserve page.
+6. Verify the "choose this flight" button for the desired flight.
+7. Click on "choose this flight" button.
+8. User should navigate to purchase page.
+9. Do not enter any value in Name, address, City, State, Zip Code, Credit card Number, Month, Year, Name on Card.
+10 Click on purchase flight button.
+11. Validate all the field messages.
+
+Scenario5:
+
+1. Launch the blazedemo application. 
+2. Verify application homepage.
+3. Verify and select the values from departure and destination city dropdown.
+4. Verify and click on find flights button.
+5. User should navigate to reserve page.
+6. Verify the "choose this flight" button for the desired flight.
+7. Click on "choose this flight" button.
+8. User should navigate to purchase page.
+9. Enter invalid data in Name, address, City, State, Zip Code, Credit card Number, Month, Year, Name on Card.
+10 Click on purchase flight button.
+11. Validate all the field.
+
+
+Scenario6:
+
+1. Launch the blazedemo application. 
+2. Verify application homepage.
+3. Verify and select the values from departure and destination city dropdown.
+4. Verify and click on find flights button.
+5. User should navigate to reserve page.
+6. Verify the "choose this flight" button for the desired flight.
+7. Click on "choose this flight" button.
+8. User should navigate to purchase page.
+9. Verify Airline Name.
+10. Enter valid values in Name, address, City, State, Zip Code, Credit card Number, Month, Year, Name on Card and select card type "VISA".
+11 Click on purchase flight button.
+12. User should navigate to confirmation page.
+13. Verify the "Thank you for your purchase today!" message.
+14. Verify the Confirmation Id.
+
+
+
+

@@ -1,0 +1,9 @@
+1. Validate the api response status should be 200(OK).
+2. Validate the api response contains body.
+3. Validate api response is in json format.
+4. Validate the api response time.
+5. Validate api response should contain property id and its value.
+6. Validate the total number of objects present in api response.
+7. Validate the property success and its value should be true.
+8. Validate the failures array should contains zero value.
+9. Validate the property flight_number, name, date_utc, date_unix is present and not null.

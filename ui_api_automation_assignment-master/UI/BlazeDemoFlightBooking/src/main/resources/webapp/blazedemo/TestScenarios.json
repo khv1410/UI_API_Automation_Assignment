@@ -1,0 +1,5 @@
+{
+	"FindFlights": "GetFlight",
+	"BookFlight": "BookFlightTicket",
+	"FlightDetails": "VerifyFlightDetails"
+}

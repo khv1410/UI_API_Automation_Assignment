@@ -1,0 +1,22 @@
+{
+	"ExpHomePage": "BlazeDemo",
+	"ExpReservePage": "BlazeDemo - reserve",
+	"ExpPurchasePage": "BlazeDemo Purchase",
+	"ExpConfirmationPage": "BlazeDemo Confirmation",
+    "FromCity": "Paris",
+    "ToCity": "Rome",
+    "BookingFlightName": "United",
+    "BookingFlightNumber": "UA954",
+    "BookingTotalCost": "Total Cost",
+    "PName":"Brian Lara",
+    "PAddress":"#123, South East",
+    "PCity":"Trinand",
+    "PState":"Antigua",
+    "PZip":"99999",
+    "PCardType":"American Express",
+    "PCCNumber":"7895259648656",
+    "PCCMonth":"06",
+    "PCCYear":"2025",
+    "PNameOnCard":"Brian Charles Lara",
+    "BookingConfirmationMessage": "Thank you for your purchase today!"
+}

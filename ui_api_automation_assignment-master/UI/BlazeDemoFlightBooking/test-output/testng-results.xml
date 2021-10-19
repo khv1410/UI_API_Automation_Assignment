@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="blazedemo" duration-ms="128276" started-at="2021-10-19T11:45:39Z" finished-at="2021-10-19T11:47:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="128276" started-at="2021-10-19T11:45:39Z" finished-at="2021-10-19T11:47:47Z">
+      <class name="com.bd.driver.DriverBase">
+        <test-method status="PASS" signature="reportTest()[pri:0, instance:com.bd.driver.DriverBase@9225652]" name="reportTest" is-config="true" duration-ms="657" started-at="2021-10-19T17:15:39Z" finished-at="2021-10-19T17:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="BookTicketTest()[pri:0, instance:com.bd.driver.DriverBase@9225652]" name="BookTicketTest" duration-ms="92212" started-at="2021-10-19T17:15:40Z" finished-at="2021-10-19T17:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookTicketTest -->
+        <test-method status="PASS" signature="FindFlightsTest()[pri:0, instance:com.bd.driver.DriverBase@9225652]" name="FindFlightsTest" duration-ms="18128" started-at="2021-10-19T17:17:12Z" finished-at="2021-10-19T17:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindFlightsTest -->
+        <test-method status="PASS" signature="FlightDetailsTest()[pri:0, instance:com.bd.driver.DriverBase@9225652]" name="FlightDetailsTest" duration-ms="15764" started-at="2021-10-19T17:17:30Z" finished-at="2021-10-19T17:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightDetailsTest -->
+        <test-method status="PASS" signature="flushTest()[pri:0, instance:com.bd.driver.DriverBase@9225652]" name="flushTest" is-config="true" duration-ms="1467" started-at="2021-10-19T17:17:46Z" finished-at="2021-10-19T17:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushTest -->
+      </class> <!-- com.bd.driver.DriverBase -->
+    </test> <!-- Test -->
+  </suite> <!-- blazedemo -->
+</testng-results>

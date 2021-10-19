@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "2636232c-5c1e-51d5-05ed-53ef33633805",
+		"name": "SpaceX_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LatestLaunch",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a07cec36-c57b-428e-b5a8-758240c08560",
+						"exec": [
+							"pm.test(\"Status\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validate Body\", function () {\r",
+							"     pm.response.to.be.ok;\r",
+							"     pm.response.to.be.withBody;\r",
+							"     pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"pm.test('Validate ID', function() {\r",
+							"    const responseJson = pm.response.json();\r",
+							"    pm.expect(responseJson).to.have.property('id');\r",
+							"    pm.expect(responseJson.id).to.match(/[A-Z}{1}[a-z]{3}/);\r",
+							"});\r",
+							"\r",
+							"pm.test('Validate Success', function() {\r",
+							"    const responseJson = pm.response.json();\r",
+							"    pm.expect(responseJson).to.have.property('success');\r",
+							"    pm.expect(responseJson.success).to.eql(true);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v4/launches/latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v4",
+						"launches",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
